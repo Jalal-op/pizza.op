@@ -1,0 +1,423 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#home{
+	position: relative;
+	background-image: url(img/home.jpg);
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+}
+
+.content{
+	justify-content: center;
+	align-items:center; 
+	margin-top: 25%;
+
+}
+.heading{
+	color: #fff;
+	text-align: center;
+	letter-spacing: normal;
+	font-size: 56px;
+	padding: 0px 77px 0px 17px;
+	font-family: 'sinisuka';
+}
+#order{
+	background: #ff6221;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	justify-content: center;
+	margin-left: 35%;
+	border: none;
+	margin-top: 20px;
+	width: 8rem;
+
+}
+    @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331!important;
+            }
+        }
+.navbar{background-color:rgba(0,0,0,.4)}
+.page-footer,.top-nav-collapse{background-color:#1C2331}
+@media only screen and (max-width:768px)
+{
+	.navbar{background-color:#1C2331}
+}
+/*<--ABOUT-->*/
+#about{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+
+}
+#about h2{
+	color: #ff6221;
+	text-align: left;
+	font-size: 50px;
+	font-family: sinisuka;
+	letter-spacing: normal;
+}
+#about p{
+	color: #000;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 17.5px;
+	font-weight: 700;
+}
+#discount{
+	position: relative;
+	background-image: url(img/discount.jpg);
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+}
+#discount .contentt{
+	margin-top: 37%;
+}
+#discount h5{
+	margin-left: 2%;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: sans-serif;
+
+}
+#discount h2{
+	margin-left: 2%;
+	color: #fff;
+	letter-spacing: normal;
+	font-size: 45px;
+	font-weight: 600;
+	font-family: sans-serif;
+}
+
+
+#discount  button{
+	background: #ff6221;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	justify-content: center;
+	margin-left: 2%;
+	border: none;
+	margin-top: 20px;
+	width: 8rem;
+}
+
+#manu{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-image: url(./img/menubg.jpeg);
+	background-size: cover;
+}
+#manu h1{
+	color: #ff6221;
+	text-align: center;
+	font-weight: 700;
+	font-size: 31.5px;
+	font-family: sans-serif;
+	letter-spacing: normal;
+	margin-top: 6%;
+}
+#manu p{
+	color: #b2aeac;
+	letter-spacing: normal;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 600;
+	margin-bottom: 5rem;
+
+}
+#manu .main{
+	width: 60%;
+    margin-left:auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+	
+}
+#manu .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	margin:1.5rem;
+	width: 12px;
+}
+#manu .box-container .box{
+
+	text-align: center;
+	padding: 1.5rem 1.5rem 0rem 1.5rem;
+	border-radius: 8.5px;
+	background-color: #ffd5c4;
+	
+	flex:1;
+}
+#manu .box-container .box img{
+	 width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  margin-top: -6rem;
+  object-fit: cover;
+  
+}
+#manu .box-container .box h3{
+	color: #000;
+	text-align: center;
+	font-weight: 600;
+	font-size:  medium;
+	font-family: sans-serif;
+}
+#manu .box-container .box p{
+	color: #000;
+	text-align: center;
+	font-size: 9px;
+	font-weight: 500;
+	font-family: sans-serif;
+	margin-bottom: 0px;
+}
+#manu .box-container .box  h4{
+	color: #000;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+}
+/*#manu .box-container .box  h4 i{
+	text-align: right;
+}*/
+
+#service{
+
+	position: relative;
+	width: 100%;
+	height: 70vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #ffd5c4;
+	background-attachment: fixed;
+}
+#service .service_content{
+	justify-content: center;
+	align-items:center; 
+	padding-top: 50px;
+}
+
+#service h1{
+	color: #ff6221;
+	text-align: center;
+	font-weight: 700;
+	font-size: 31.5px;
+	font-family: sans-serif;
+	letter-spacing: normal;
+	
+
+}
+#service p{
+	color: #b2aeac;
+	letter-spacing: normal;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+#service .row {
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: auto;
+   margin-left: auto;
+
+}
+#service .main{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#service .card{
+	
+	justify-content: center;
+	align-items: center;
+	margin:1.5rem;
+	width: 156px;
+	height: 165px;
+	background-color:#fff;
+	border-radius: 12.5px;
+}
+#service .card h5{
+	color: #ff6221;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight:600;
+	letter-spacing: normal;
+	margin-top: 17px; 
+}
+#abc {
+	width: 100%;
+	height: 85vh;
+	background-color: #fff;
+	position: relative;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#abc .service_content{
+	justify-content: center;
+	align-items:center; 
+	padding-top: 75px;
+}
+#abc h1{
+	color: #ff6221;
+	text-align: center;
+	font-weight: 700;
+	font-size: 31.5px;
+	font-family: sans-serif;
+	letter-spacing: normal;
+}
+#abc  p{
+	color: #b2aeac;
+	letter-spacing: normal;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+#abc .main{
+    width: 63%;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+#abc .contentt{
+	display: flex;
+   flex-wrap: wrap;
+   margin-right: auto;
+   margin-left: auto;
+}
+#abc .contentt  h5{
+	color: #000;
+	text-align: left;
+	font-size: 15px;
+	font-weight: 700;
+
+}
+#abc .main p{
+	color: #000;
+	text-align: left;
+	font-size: 15px;
+	font-weight: 600;
+	margin-left: 2rem;
+}
+@media only screen and (max-width: 768px) {
+  .content{
+    margin-top: 12%;
+  }
+  .heading{
+  	font-size: 39px;
+  }
+  #order{
+  	margin-left: 23%;
+  }
+  #about .content{
+  	margin-top: 20%
+  }
+  #about .content img{
+  	width: 26rem;
+  }
+  #discount .contentt {
+    margin-top: 22%;
+	}
+  #manu{
+  	height: 192vh;
+  }
+  #manu .main{
+  	
+  	width: 100%;
+  }
+  #service {
+  	height: 100vh;
+  }
+  #service .main{
+  	width: 100%;
+  }
+  #abc img{
+  	width: 18rem;
+  }
+ 
+}
+@media only screen and (max-width: 425px) {
+	 #home{
+		 height: 100%;
+
+	 }
+	 #order{
+		 margin-bottom: 1rem;
+	 }
+	 #discount{
+		 height: 100%;
+		
+	 }
+	 #discount button {
+	
+		 margin-bottom: 1rem;
+	 }
+	#about{
+		height: 100%;
+	}
+	#about .content{
+		margin-top: 10;
+	}
+	#about .content img{
+		width: 22rem;
+	}
+	
+	#discount .contentt{
+	margin-top:0%;
+	}
+	#manu{
+		height: 100%;
+	}
+	#manu .main{
+		width: fit-content;
+	}
+	#manu .box-container{
+		margin-top: 5rem;
+	}
+	#service{
+		height: 100%;
+	}
+	#service .main{
+		width: min-content;
+	}
+	#abc img{
+  		width: 15rem;
+  	}
+  	#abc .contentt h5{
+  		margin-top: 10px;
+  	}
+}	
+@media only screen and (max-width: 320px) {
+	#about .content img {
+    	width: 19rem;
+	}
+	.heading {
+    	font-size: 35px;
+	}
+	.content {
+    	margin-top: 7%;
+	}
+
+}
